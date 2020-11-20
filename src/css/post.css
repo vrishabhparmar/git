@@ -1,0 +1,58 @@
+.posts{
+    
+    font-size: 14px;
+    padding: 10px 0px;
+    max-height: fit-content;
+    min-width: 550px;
+    border: 1px solid lightgray;
+    background-color: white;
+    margin: 20px auto;
+
+}
+
+
+
+.post-header{
+    display: flex;
+    padding: 5px 10px;
+    align-items: center;
+ 
+}
+
+.post-header .username
+{
+    padding: 10px;
+    font-size: 14px;
+}
+ .caption{
+    padding: 10px;
+    font-size: 14px;
+}
+
+.post-image
+{
+    
+    width: 550px;
+    height: 100%;
+    object-fit: contain;
+
+}
+.comment-form{
+    display: flex;
+    
+    justify-content: space-between;
+    padding: 10px;
+}
+.comment-form > .post-input{
+    
+}
+
+.comments-section{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;}
+
+
+.comments-section > p {
+    margin: 5px 0px;
+}    

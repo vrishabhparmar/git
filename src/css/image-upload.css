@@ -1,0 +1,18 @@
+.Image-upload{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    
+    
+}
+.Image-upload > .input
+{
+    margin: 10px 0;
+}
+
+
+progress{
+   width: 100%;
+   border-radius: 0;
+
+}

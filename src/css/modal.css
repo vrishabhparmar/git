@@ -1,0 +1,10 @@
+.modal{
+    display: flex;
+}
+
+.modal-header-image
+{
+    width: 110px;
+    height: 55px;
+   
+}
